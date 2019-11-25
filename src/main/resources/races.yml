@@ -1,0 +1,49 @@
+races:
+  Human:
+    tag: '&8[&bHuman&8]'
+    chat-format: '&8[&bHuman Chat&8] &f%player%: &7%message%'
+    spawn-point: world;0.5;50;0.5;280;0
+    broadcast-message: '&b&l(!) &b%player% has joined the Humans!'
+    mcMMO-boost:
+      - SWORDS:15
+      - TAMING:15
+      - FISHING:15
+    effects:
+      - HEALTH_BOOST:0
+    commands:
+      - 'tellraw %player% {"text":"+15 Swords Levels",color:green,bold:true}'
+      - 'tellraw %player% {"text":"+15 Taming Levels",color:green,bold:true}'
+      - 'tellraw %player% {"text":"+15 Fishing Levels",color:green,bold:true}'
+      - 'kit starter %player%'
+  Dwarf:
+    tag: '&8[&cDwarf&8]'
+    chat-format: '&8[&cDwarf Chat&8] &f%player%: &7%message%'
+    spawn-point: world;0.5;50;0.5;280;0
+    broadcast-message: '&c&l(!) &c%player% has joined the Dwarfs!'
+    mcMMO-boost:
+      - AXES:15
+      - MINING:15
+      - REPAIR:15
+    effects:
+      - FAST_DIGGING:1
+    commands:
+      - 'tellraw %player% {"text":"+15 Axes Levels",color:green,bold:true}'
+      - 'tellraw %player% {"text":"+15 Mining Levels",color:green,bold:true}'
+      - 'tellraw %player% {"text":"+15 Repair Levels",color:green,bold:true}'
+      - 'kit starter %player%'
+  Elf:
+    tag: '&8[&aElf&8]'
+    chat-format: '&8[&aElf Chat&8] &f%player%: &7%message%'
+    spawn-point: world;0.5;50;0.5;280;0
+    broadcast-message: '&a&l(!) &a%player% has joined the Elves!'
+    mcMMO-boost:
+      - ARCHERY:15
+      - HERBALISM:15
+      - WOODCUTTING:15
+    effects:
+      - SPEED:2
+    commands:
+      - 'tellraw %player% {"text":"+15 Archery Levels",color:green,bold:true}'
+      - 'tellraw %player% {"text":"+15 Herbalism Levels",color:green,bold:true}'
+      - 'tellraw %player% {"text":"+15 Woodcutting Levels",color:green,bold:true}'
+      - 'kit starter %player%'

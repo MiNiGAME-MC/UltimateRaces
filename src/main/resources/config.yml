@@ -1,0 +1,126 @@
+races-settings:
+  force-selection: true
+  use-confirmation-pane: true
+  friendly-fire: false
+  fireworks: true
+  override-spawn-command: true
+  sounds:
+    select:
+      effect: 'ORB_PICKUP'
+      pitch: 2
+      volume: 3
+soul-gem:
+  id: 'ENDER_EYE'
+  display: '&eSoul Gem'
+  lore:
+    - '&7Allows you to change your race.'
+    - '&eSingle use, right click while equipped.'
+races-panels:
+  selection:
+    title: 'Select a race...'
+    size: 8
+    items:
+      '0':
+        slot: 0
+        item:
+          id: 'STAINED_GLASS_PANE:15'
+          display: ' '
+      '1':
+        race: Human
+        slot: 3
+        item:
+          id: 'SKULL_ITEM:3'
+          texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODhiYjQ4NjNlN2JlYWZiYjYyYWVkZDIzNGFiOTM2MTZhOTA5NzNkYTM1MTJjMmMyNTVjZTNiODc1MDg2NjJkMSJ9fX0='
+          display: '&b&lHuman'
+          lore:
+            - '&b&lPassive: &fHealth Boost I'
+            - '&b&lDescription: &7Inquisitive, resilient, versatile.'
+            - '&7Humans are a young race that are'
+            - '&7known for their accomplishments in'
+            - '&7Empire Building, Exploration and Magic.'
+      '2':
+        race: Dwarf
+        slot: 4
+        item:
+          id: 'SKULL_ITEM:3'
+          texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzcyYzlmYjg3ZmE0YTJhMDg2OTJmZDRlMzFiOTE1MTZhNjkyYzQ4ZmJjNTUyNWRlZWM2ZmVkMzUxZjNhMzZjIn19fQ=='
+          display: '&c&lDwarf'
+          lore:
+            - '&c&lPassive: &fHaste II'
+            - '&c&lDescription: &7Miners, drunken, explosive.'
+            - '&7Dwarves are a stout little race,'
+            - '&7that is built for a war economy,'
+            - '&7they love War, Drinking and Mining.'
+      '4':
+        race: Elf
+        slot: 5
+        item:
+          id: 'SKULL_ITEM:3'
+          texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2E4YTU3NzM2NTgzMzZhZDlkOTUzNTkwNjNhZTYxOWEyZGQ3NDI1ZDg5ZTc1NmJmY2FjNTE5NmEyM2EzODIyOSJ9fX0='
+          display: '&a&lElf'
+          lore:
+            - '&a&lPassive: &fSpeed III'
+            - '&a&lDescription: &7Intelligent, perceptive, quick.'
+            - '&7Elves are an extremely mature race'
+            - '&7made famous throughout the ages for'
+            - '&7Wisdom, War-Strategists and Vitality.'
+      '5':
+        slot: 8
+        item:
+          id: 'STAINED_GLASS_PANE:15'
+          display: ' '
+  confirmation:
+    title: 'Confirm Selection'
+    size: 8
+    items:
+      '0':
+        button: 'accept'
+        slot: 0
+        item:
+          id: 'stained_glass_pane:5'
+          display: '&a&lAccept'
+          lore:
+            - '&7Click to confirm your race selection.'
+      '1':
+        button: 'accept'
+        slot: 1
+        item:
+          id: 'stained_glass_pane:5'
+          display: '&a&lAccept'
+          lore:
+            - '&7Click to confirm your race selection.'
+      '2':
+        button: 'accept'
+        slot: 2
+        item:
+          id: 'stained_glass_pane:5'
+          display: '&a&lAccept'
+          lore:
+            - '&7Click to confirm your race selection.'
+      '3':
+        button: 'race'
+        slot: 4
+      '4':
+        button: 'deny'
+        slot: 6
+        item:
+          id: 'stained_glass_pane:14'
+          display: '&c&lDeny'
+          lore:
+            - '&7Click to deny your race selection.'
+      '5':
+        button: 'deny'
+        slot: 7
+        item:
+          id: 'stained_glass_pane:14'
+          display: '&c&lDeny'
+          lore:
+            - '&7Click to deny your race selection.'
+      '6':
+        button: 'deny'
+        slot: 8
+        item:
+          id: 'stained_glass_pane:14'
+          display: '&c&lDeny'
+          lore:
+            - '&7Click to deny your race selection.'

@@ -1,0 +1,7 @@
+name: UltimateRaces
+version: ${project.version}
+main: net.ryu.ultimateraces.UltimateRacesPlugin
+api-version: 1.13
+softdepend: [PlaceholderAPI, mcMMO]
+author: ryu
+description: A races plugin similar to Treasure Wars plugin!
