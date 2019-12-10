@@ -1,9 +1,11 @@
+#TODO: Add more comments to the config.yml and races.yml to allow buyers to better understand what is going on and to better grasp everything.
 races-settings:
   force-selection: true
   use-confirmation-pane: true
   friendly-fire: false
   fireworks: true
   override-spawn-command: true
+  race-chat: true #TODO: Allows owners to enable or disable the ability for races to have a special chat.
   sounds:
     select:
       effect: 'ORB_PICKUP'

@@ -1,0 +1,28 @@
+| TODO: Add the ability for players to create new races in-game, instead of having to create them in the races.yml.
+Commands:
+  command: /race create [race]
+  permission-node: races.admin.create
+  description: Ability to create a new race in-game.
+
+| TODO: Add the ability to edit races in-game, instead of having to remove them from the races.yml.
+  = Note: Make sure to add a confirmation system and an undo system just in case they make a mistake.
+Commands:
+  command: /race remove|delete [race]
+  permission-node: races.admin.remove
+  description: Ability to remove a race in-game.
+
+| TODO: Add a new command to allow administrators to spy on the race chats.
+Commands:
+  command: /race chatspy
+  permission-node: races.admin.chatspy
+  description: Ability to spy on the race chat.
+
+| TODO: Redefine the help command is done, allow the ability to create a page system within the messages_en.yml
+| TODO: Add a new aspect of race weaknesses to the plug-in to allow users to create overpowered races without breaking the balance.
+  = Note: Make sure to create a section in the wiki for users to refer to with a list and description of all the weaknesses.
+| TODO: Add a new aspect of race abilities, Almost like EliteArmour and EliteMask, but with per-race.
+  = Note: Make sure to create a section in the wiki for users to refer to with a list and description of all the abilities.
+| TODO: Add the ability to make certain races permission based and not global.
+| TODO: Add the ability to allow the servers to complete disable the race chat feature.
+| TODO: Add a time sequence for when a player executes the race spawn teleport sequence.
+| TODO: Add the ability to set the amount of hearts a race starts with when selected.

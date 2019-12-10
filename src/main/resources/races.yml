@@ -4,6 +4,11 @@ races:
     chat-format: '&8[&bHuman Chat&8] &f%player%: &7%message%'
     spawn-point: world;0.5;50;0.5;280;0
     broadcast-message: '&b&l(!) &b%player% has joined the Humans!'
+    permission: 'races.join.human' #TODO: Add the ability to create rank races.
+    weaknesses: #TODO: Add the ability to add weaknesses for a certain race.
+      -
+    abilities: #TODO: Add the ability to add special abilities to certain races.
+      -
     mcMMO-boost:
       - SWORDS:15
       - TAMING:15
