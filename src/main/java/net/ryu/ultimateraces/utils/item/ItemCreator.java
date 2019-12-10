@@ -5,7 +5,6 @@ import com.mojang.authlib.properties.Property;
 import lombok.NonNull;
 import net.ryu.ultimateraces.UltimateRacesPlugin;
 import net.ryu.ultimateraces.utils.message.Txt;
-import org.bukkit.Bukkit;
 import org.bukkit.Color;
 import org.bukkit.Material;
 import org.bukkit.block.BlockState;
