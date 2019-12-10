@@ -26,3 +26,4 @@ Commands:
 | TODO: Add the ability to allow the servers to complete disable the race chat feature.
 | TODO: Add a time sequence for when a player executes the race spawn teleport sequence.
 | TODO: Add the ability to set the amount of hearts a race starts with when selected.
+| TODO: Create a system to allow users to create their own abilities.
