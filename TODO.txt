@@ -17,10 +17,9 @@ Commands:
   permission-node: races.admin.chatspy
   description: Ability to spy on the race chat.
 
-| TODO: Redefine the help command is done, allow the ability to create a page system within the messages_en.yml
 | TODO: Add a new aspect of race weaknesses to the plug-in to allow users to create overpowered races without breaking the balance.
   = Note: Make sure to create a section in the wiki for users to refer to with a list and description of all the weaknesses.
-| TODO: Add a new aspect of race abilities, Almost like EliteArmour and EliteMask, but with per-race.
+| TODO: Add a new aspect of race abilities, but with per-race.
   = Note: Make sure to create a section in the wiki for users to refer to with a list and description of all the abilities.
 | TODO: Add the ability to make certain races permission based and not global.
 | TODO: Add the ability to allow the servers to complete disable the race chat feature.
